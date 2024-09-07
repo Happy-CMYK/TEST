@@ -1,0 +1,34 @@
+#YAML对象
+
+# 方式一：
+# 流式(flow)语法表示对象
+# key + 空格 + ：{key1:value + , + key2:value}
+
+# 实例4：clientA: {name: 张三, age: 18, hobby: game}
+# 注意：在yaml中冒号：后一定要加空格
+clientA: {name: 张三, age: 18, hobby: game}
+clientB: {name: 张三, age: 19, hobby: eating}
+
+
+# 方式二：
+# key:
+# 缩进+key1: + 空格 + value
+# 缩进+key2: + 空格 + value
+
+# 实例5：
+# 注意此写法中对象属于集合，读取时是无序的、可重复的
+# 注意与下文列表+对象混合使用对比(实例6)
+# {
+#   clientC:{name:张三,age:18,hobby:game},
+#   clientD:{name:李四,age:19,hobby:hobby}
+# }
+clientC:
+	name: 张三
+    age: 18
+	hobby: game
+
+clientD:
+	name: 李四
+    age: 19
+	hobby: eating
+

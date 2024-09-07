@@ -1,0 +1,19 @@
+# 列表+对象多重嵌套
+
+# 实例7：
+#  [
+#  {name:张三，age:18 hobby:game },
+#  {name:李四，age:19 hobby:[game,eating,drinking] }
+#  ]
+#  yaml表示语法：
+-
+  name: 张三
+  age: 18
+  hobby: game
+-
+  name: 李四
+  age: 19
+  hobby:
+    - game
+    - eating
+    - drinking

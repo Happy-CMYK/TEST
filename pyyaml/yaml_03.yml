@@ -1,0 +1,47 @@
+#YAML列表+对象混合使用
+
+# 列表+对象混合使用
+# Space:空格
+# 核心要点：
+#  -Space表示列表
+#  :Space表示对象
+#  注意区分以下两种实例：
+
+# 实例6：
+# {
+#  clientE:[{"name": "张三"},{"age": 18},{"hobby": "game"}],
+#  clientF:[{"name": "李四"},{"age": 19},{"hobby": "eating"}]
+# }
+# yaml表示语法：
+clientE:
+  - name: 张三
+  - age: 18
+  - hobby: game
+clientF:
+  - name: 李四
+  - age: 19
+  - hobby: eating
+
+
+
+
+#  直观比较
+
+#languages:
+#  - Ruby
+#  - YAML
+#  - Python
+#websites:
+#  YAML: yaml.org
+#  Ruby: ruby-lang.org
+#  Python: python.org
+
+#YAML转换为JSON
+#{
+#  languages: ['Ruby', 'YAML', 'Python'],
+#  websites: {
+#    YAML: 'yaml.org',
+#    Ruby: 'ruby-lang.org',
+#    Python: 'python.org'
+#  }
+#}
