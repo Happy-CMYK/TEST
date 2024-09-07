@@ -1,0 +1,37 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '账号格式不匹配' in '账号不存在!'",
+      "children" : [ {
+        "name" : "test_username_error[12888888888-123456-8888-账号格式不匹配]",
+        "uid" : "a83cc4192c791132",
+        "parentUid" : "e1a70f700ac4034c311bff1090fe1416",
+        "status" : "failed",
+        "time" : {
+          "start" : 1687182421197,
+          "stop" : 1687182422420,
+          "duration" : 1223
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'12888888888'" ]
+      }, {
+        "name" : "test_username_error[12888888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "4bcbdffe55dbcd49",
+        "parentUid" : "e1a70f700ac4034c311bff1090fe1416",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689579682285,
+          "stop" : 1689579685625,
+          "duration" : 3340
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'12888888888'" ]
+      } ],
+      "uid" : "e1a70f700ac4034c311bff1090fe1416"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

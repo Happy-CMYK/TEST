@@ -1,0 +1,237 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "flyroy",
+    "children" : [ {
+      "name" : "19412-MainThread",
+      "children" : [ {
+        "name" : "test_username_error[138888888aa-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "2a8b316cdc7e56da",
+        "parentUid" : "102c872cebda25403d4c94857bdc5a0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367608173,
+          "stop" : 1695367609462,
+          "duration" : 1289
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888aa'" ]
+      }, {
+        "name" : "test_username_error[-13888888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "1f863dacd5b92d23",
+        "parentUid" : "102c872cebda25403d4c94857bdc5a0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367633708,
+          "stop" : 1695367635100,
+          "duration" : 1392
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'-13888888888'" ]
+      }, {
+        "name" : "test_username_error[138888888.8-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "660e6652010560ff",
+        "parentUid" : "102c872cebda25403d4c94857bdc5a0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367620898,
+          "stop" : 1695367622350,
+          "duration" : 1452
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888.8'" ]
+      } ],
+      "uid" : "102c872cebda25403d4c94857bdc5a0b"
+    }, {
+      "name" : "17248-MainThread",
+      "children" : [ {
+        "name" : "test_username_error[12888888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "4bcbdffe55dbcd49",
+        "parentUid" : "c0df2c5f84efa303f0e349300f0b96f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689579682285,
+          "stop" : 1689579685625,
+          "duration" : 3340
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'12888888888'" ]
+      } ],
+      "uid" : "c0df2c5f84efa303f0e349300f0b96f7"
+    }, {
+      "name" : "13244-MainThread",
+      "children" : [ {
+        "name" : "test_username_error[138888888%*-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "39f3c8a6f779bc31",
+        "parentUid" : "f86a82413268472971d63f4c371a5c38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367632590,
+          "stop" : 1695367633920,
+          "duration" : 1330
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888%*'" ]
+      }, {
+        "name" : "test_username_error[23888888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "95bf87dad623aee8",
+        "parentUid" : "f86a82413268472971d63f4c371a5c38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367620103,
+          "stop" : 1695367621499,
+          "duration" : 1396
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'23888888888'" ]
+      }, {
+        "name" : "test_username_error[1288888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "80d08d17c38c737d",
+        "parentUid" : "f86a82413268472971d63f4c371a5c38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367608251,
+          "stop" : 1695367609559,
+          "duration" : 1308
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'1288888888'" ]
+      } ],
+      "uid" : "f86a82413268472971d63f4c371a5c38"
+    }, {
+      "name" : "11608-MainThread",
+      "children" : [ {
+        "name" : "test_username_error[138888888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "b2ec277400d0fed4",
+        "parentUid" : "a55b5fe1f16c80123ed4599d3e06d14e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367632317,
+          "stop" : 1695367633701,
+          "duration" : 1384
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888888'" ]
+      }, {
+        "name" : "test_username_error[1388888888-123456-8888-\\u8d26\\u53f7\\u683c\\u5f0f\\u4e0d\\u5339\\u914d]",
+        "uid" : "7ba0f162e03ad477",
+        "parentUid" : "a55b5fe1f16c80123ed4599d3e06d14e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695367620041,
+          "stop" : 1695367621391,
+          "duration" : 1350
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'1388888888'" ]
+      } ],
+      "uid" : "a55b5fe1f16c80123ed4599d3e06d14e"
+    } ],
+    "uid" : "fef9ff1333741a9729bfc80f7bde4e3d"
+  }, {
+    "name" : "zhh-matebook14",
+    "children" : [ {
+      "name" : "15284-MainThread",
+      "children" : [ {
+        "name" : "test_username_error[1388888888-123456-8888-账号格式不匹配]",
+        "uid" : "bc8f42cbd46931ac",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182435585,
+          "stop" : 1687182436753,
+          "duration" : 1168
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'1388888888'" ]
+      }, {
+        "name" : "test_username_error[23888888888-123456-8888-账号格式不匹配]",
+        "uid" : "db3aeee916c60e6f",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182428261,
+          "stop" : 1687182429275,
+          "duration" : 1014
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'23888888888'" ]
+      }, {
+        "name" : "test_username_error[138888888aa-123456-8888-账号格式不匹配]",
+        "uid" : "dd30e0e0d30055d6",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182449258,
+          "stop" : 1687182450339,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888aa'" ]
+      }, {
+        "name" : "test_username_error[138888888%*-123456-8888-账号格式不匹配]",
+        "uid" : "806cf9a31efec671",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182469849,
+          "stop" : 1687182470938,
+          "duration" : 1089
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888%*'" ]
+      }, {
+        "name" : "test_username_error[-13888888888-123456-8888-账号格式不匹配]",
+        "uid" : "3e56d94815cc1f15",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182463002,
+          "stop" : 1687182464034,
+          "duration" : 1032
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'-13888888888'" ]
+      }, {
+        "name" : "test_username_error[12888888888-123456-8888-账号格式不匹配]",
+        "uid" : "a83cc4192c791132",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1687182421197,
+          "stop" : 1687182422420,
+          "duration" : 1223
+        },
+        "flaky" : true,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'12888888888'" ]
+      }, {
+        "name" : "test_username_error[138888888888-123456-8888-账号格式不匹配]",
+        "uid" : "631d2e6edec32cd2",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182442409,
+          "stop" : 1687182443519,
+          "duration" : 1110
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888888'" ]
+      }, {
+        "name" : "test_username_error[138888888.8-123456-8888-账号格式不匹配]",
+        "uid" : "7c92c4bfbd69a513",
+        "parentUid" : "9ee907264e2c5735136ceffa54169b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687182455988,
+          "stop" : 1687182457050,
+          "duration" : 1062
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号格式不匹配'", "'8888'", "'123456'", "'138888888.8'" ]
+      } ],
+      "uid" : "9ee907264e2c5735136ceffa54169b2a"
+    } ],
+    "uid" : "f25f689452b13ec3f912b516fcd44825"
+  } ]
+}
