@@ -1,0 +1,86 @@
+{
+  "uid" : "3d9085606db329e6",
+  "name" : "test_01",
+  "fullName" : "test_allure.Test_Allure#test_01",
+  "historyId" : "0818ecaf605dacd83af10a442c5641c3",
+  "time" : {
+    "start" : 1687181512520,
+    "stop" : 1687181512520,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_Allure",
+    "time" : {
+      "start" : 1687181512517,
+      "stop" : 1687181512518,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_Allure::0",
+    "time" : {
+      "start" : 1687181512520,
+      "stop" : 1687181512520,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "测试1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Allure"
+  }, {
+    "name" : "host",
+    "value" : "zhh-matebook14"
+  }, {
+    "name" : "thread",
+    "value" : "29120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d9085606db329e6.json",
+  "parameterValues" : [ ]
+}

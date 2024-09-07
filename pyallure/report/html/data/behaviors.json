@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录功能测试",
+    "children" : [ {
+      "name" : "测试1",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "8d56a8a29a8964b8",
+        "parentUid" : "f88d32d9f7bf69c526f4bac4ea605fcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687181777715,
+          "stop" : 1687181777718,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f88d32d9f7bf69c526f4bac4ea605fcd"
+    }, {
+      "name" : "测试2",
+      "children" : [ {
+        "name" : "test_02",
+        "uid" : "b3983ba3a81716e7",
+        "parentUid" : "7bcaa873442ec8494a67731d75f9379f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1687181777724,
+          "stop" : 1687181777724,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bcaa873442ec8494a67731d75f9379f"
+    } ],
+    "uid" : "fb7ebb1c546e3dccc5fbebdb7cc1c62e"
+  } ]
+}
